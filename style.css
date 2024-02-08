@@ -13,6 +13,7 @@ body {
     margin:8px;
     padding:8px; 
     position:relative;
+    gap:16px;
 }
 
 button{
@@ -20,9 +21,11 @@ button{
     margin:8px;
     padding:8px;
     border:2px solid black;
-    left: 15%;
+    left: 8%;
     top:40%;
     background-color: rgb(196, 196, 254);
+    font-family: 'Saira Stencil One', sans-serif;
+    font-size: 2rem;
 }
 .container {
     display: flex;
@@ -40,4 +43,12 @@ button{
     align-items: center;
     box-sizing: border-box;
     
+}
+.heading{
+    background-color: rgb(0, 116, 240);
+    color:white;
+    padding:8px;
+    margin:2px;
+    font-size: 5rem;
+    font-family: 'Saira Stencil One', sans-serif;
 }
