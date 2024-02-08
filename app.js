@@ -17,3 +17,27 @@ button.addEventListener('click',function(){
         })
     }
 })
+// button.addEventListener('click', function() {
+//     let size = prompt("Enter grid size:");
+//     container.innerHTML = '';
+
+//     for (let i = 1; i <= size**2; i++) {
+//         let divToAdd = newdiv.cloneNode(true);
+//         container.appendChild(divToAdd); 
+//         divToAdd.style.flexBasis = `${100/size}%`;
+
+//         let darkness = 0; 
+        
+//         divToAdd.addEventListener('mouseover', function() {
+            
+//             darkness += 25.5;
+//             if (darkness > 255) {
+//                 darkness = 255; 
+//             }
+            
+            
+//             divToAdd.style.backgroundColor = `rgb(${255 - darkness},${255 - darkness},${255 - darkness})`;
+//         });
+//     }
+// });
+
